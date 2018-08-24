@@ -45,22 +45,12 @@ body:after {
     height: 100vh;
 
     background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(0, 0, 0, 0.2)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.2)));
-
     background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.2) 90%);
-
     background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.2) 90%);
-
     background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 10%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.2) 90%);
 }
 
 .center {
-    /* display: block;
-    margin: 0 auto;*/
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);*/
     max-width: 1120px;
     width: 1120px;
 
@@ -391,11 +381,6 @@ h1 {
 
 
 @media screen and (max-width: 1024px) {
-    /* .center {
-        max-width: 90%;
-
-        padding: 0 2%;
-    }*/
     .products {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -420,8 +405,6 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .center {
-       /* transform: translate(-50%, 0%);*/
-
         max-width: 98%;
         padding: 0%;
     }
